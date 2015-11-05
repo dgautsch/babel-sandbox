@@ -4,7 +4,7 @@
   "description": "A babel js sandbox for philly barcamp 2015",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/budo index.js --live"
+    "start": "./node_modules/.bin/budo index.js --live -- -t [ babelify --presets [ es2015 ] ]"
   },
   "repository": {
     "type": "git", 
