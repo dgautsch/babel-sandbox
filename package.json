@@ -31,5 +31,8 @@
   },
   "babel": {
     "presets": ["es2015"]
+  },
+  "jshintConfig": {
+    "esnext": true
   }
 }
